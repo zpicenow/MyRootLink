@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="40dp"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:layout_height="2dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/id_ll_tabLayout1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="homeClick"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/id_iv_tabImg1"
+                android:layout_width="match_parent"
+                android:layout_weight="5"
+                android:src="@drawable/home_gray"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/id_tv_tabTv1"
+                android:text="@string/home"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_ll_tabLayout2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="messageClick"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/id_iv_tabImg2"
+                android:layout_width="match_parent"
+                android:layout_weight="5"
+                android:src="@drawable/message_gray"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/id_tv_tabTv2"
+                android:text="@string/message"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_ll_tabLayout5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="messageClick"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/id_iv_tabImg5"
+                android:layout_width="match_parent"
+                android:layout_weight="5"
+                android:src="@drawable/more"
+                android:layout_height="0dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_ll_tabLayout3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="fileClick"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/id_iv_tabImg3"
+                android:layout_width="match_parent"
+                android:layout_weight="5"
+                android:src="@drawable/file_gray"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/id_tv_tabTv3"
+                android:text="@string/file"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_ll_tabLayout4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:onClick="productClick"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/id_iv_tabImg4"
+                android:layout_width="match_parent"
+                android:layout_weight="5"
+                android:src="@drawable/product_gray"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/id_tv_tabTv4"
+                android:text="@string/product"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

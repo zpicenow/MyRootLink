@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RootLink</string>
+    <string name="home">主页</string>
+    <string name="message">动态</string>
+    <string name="file">文档</string>
+    <string name="product">设备</string>
+    <string name="login_register">没有账户，先去注册</string>
+    <string name="sensor">设备传感器</string>
+    <string name="data">数据分析</string>
+    <string name="logout">退出登录</string>
+    <string name="wexin">微信管理</string>
+    <string name="logout_message">退出登陆后您将无法实时查看您的设备参数，无法使用在线控制包括微信控制等功能</string>
+    <string name="attention">!提示!</string>
+    <string name="netless">本软件需要提供网络以连接数据库管理硬件平台\n请检查您的网络状况\n初次登陆时需要建立连接\n请耐心等待</string>
+</resources>
